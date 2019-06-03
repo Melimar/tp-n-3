@@ -2,21 +2,9 @@
 
 ##### COMPORTAMIENTO ACTUAL:
 
-##### PASOS PARA REPRODUCIR LA MEJORA:
-
-1. 
-2. 
-3. 
-
-##### NOTAS EXTRA:
 
 ##### RAMIFICACIÓN (ES):
-dominar
-
-##### HASH/COMMIT:
+master
 
 ##### SISTEMA OPERATIVO:
 
-##### MODULO:
-
-##### OTRAS PERSONALIZACIONES:
