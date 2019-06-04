@@ -4,28 +4,83 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
   <link rel="stylesheet" href="css/style.css">
-  <title>TP N3</title>
+  <title>Turismo NQN</title>
 </head>
 <body>
-    <h1  align="center">Trabajo Practico N°3</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Turismo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ubicacion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Inscripción</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <h1  align="center">Inscripción</h1>
+    <div class="estilo">
     <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">Nombre</label>
+      <input type="text" class="form-control required" id="validationServer01" required>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Apellido</label>
+      <input type="text" class="form-control required" id="validationServer02" required>
+    </div>
+   </div> 
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Correo</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        </div>
+        <input type="text" class="form-control required" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+     </div>
+    </div>
+  
+  
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Ciudad</label>
+      <input type="text" class="form-control" id="validationServer03" required>  
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">Provincia</label>
+      <input type="text" class="form-control" id="validationServer04" required>
+    </div>
+  </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Zip</label>
+      <input type="text" class="form-control" id="validationServer05" required>
+      
+    </div>
+  
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input required" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Aceptar los terminos
+      </label>
+      
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Inscribirse</button>
+</form>
+</div>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
