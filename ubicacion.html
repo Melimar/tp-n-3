@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="css/style.css">
+    <title>contacto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    hr {border-top: 1px solid #000; width:50%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+#contact2{
+    letter-spacing:3px;
+}
+
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Turismo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Inscripción</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+<div class="container">
+<h1 class="text-center">Contact Address</h1>
+<hr>
+  <div class="row">
+    <div class="col-sm-8">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-sm-4" id="contact2">
+        <h3>Sedi e Contatti</h3>
+        <hr align="left" width="50%">
+        <h4 class="pt-2">Sede operativa</h4>
+        <i class="fas fa-globe" style="color:#000"></i> address<br>
+        <h4 class="pt-2">Contatti</h4>
+        <i class="fas fa-phone" style="color:#000"></i> <a href="tel:+"> 123456 </a><br>
+        <i class="fab fa-whatsapp" style="color:#000"></i><a href="tel:+"> 123456 </a><br>
+        <h4 class="pt-2">Email</h4>
+        <i class="fa fa-envelope" style="color:#000"></i> <a href="">test@test.com</a><br>
+      </div>
+  </div>
+</div>
+
+
+
+<br><br>
+<div class="row text-center bg-success text-white" id="author">
+  <div class="col-12 mt-4 h3 ">
+  <a href="#">by P. Fattoruso</a>
+</div>
+<div class="col-12 my-2">
+<a href="https://www.linkedin.com/in/paolofattoruso/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+</div>
+</div>	<script type="text/javascript">
+		</script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
